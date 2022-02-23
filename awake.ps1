@@ -4,5 +4,6 @@
     $WShell = New-Object -com "Wscript.Shell"
     $WShell.sendkeys("{SCROLLLOCK}")
     $WShell = $null
-        write-host "SHIFT key pressed"
+    write-host "SCROLLLOCK key pressed"
     start-sleep -seconds 60 # every 60 secs
+   }
